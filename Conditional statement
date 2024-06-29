@@ -1,0 +1,68 @@
+#Check given alphabet is in uppercase or lowercase.
+
+ch=input("Enter any character(a-z)or(A-Z):");
+if ch.isupper():
+    print("Uppwercase")
+else:
+    print("Lowercase")
+
+
+#Check given alphabet is vowel or consonant using if else.
+
+str="aeiouAEIOU"
+ch=input("Enter any character:")
+
+if ch in str:
+    print("character is Vowel");
+else:
+    print("Character is consonant")
+
+
+#Check given character is alphabet, digit or special symbol.
+
+character=input("Enter any character:")
+if character.isalpha():
+    print("Alphabet")
+elif character.isdigit():
+    print("Digit")
+else:
+    print("Special Symbol")
+
+
+# Check given number is Positive,Negative or Zero using if.
+
+num=int(input("Enter a number:"))
+if num>0:
+    print("Number is positive")
+if num<0:
+    print("Number is negative")
+if num==0:
+    print("Number is zero")
+
+
+# Greatest number in three number using if.
+
+num1=int(input("Enter first number:"))
+num2=int(input("Enter second number:"))
+num3=int(input("Enter third number:"))
+if num1>num2 and num1>num3:
+    print(num1,"is greater")
+if num2>num1 and num2>num3:
+    print(num2,"is greater")
+if num3>num1 and num3>num2:
+    print(num3,"is greater")
+
+
+#Input three angle of a triangle and check triangle is valid or not using if else.
+
+a1=int(input("Enter first angle:"))
+a2=int(input("Enter second angle:"))
+a3=int(input("Enter third angle:"))
+angle=a1+a2+a3
+print("Angle is:",angle)
+if(angle==180):
+    print("Triangle is valid!!!")
+else:
+    print("Triangle is Invalid!!!")
+
+    
