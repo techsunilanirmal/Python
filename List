@@ -1,0 +1,81 @@
+#1.Print a list:
+
+A= ["Red","Green","Black"]
+print(A)
+
+
+#2. List Indexing:-
+
+B= ["Apple","Banana","Cherry"]
+print(B[0])
+print(B[1])
+print(B[2])
+
+
+#3. List Slicing:
+
+color= ["Green","Yellow","Black","Red","Pink"]
+print(color[1:3])
+print(color[1:]) 
+print(color[:2])
+
+
+ #4. List Append:
+
+S= [10,20,30,40,50]
+S.append(200)
+S.append(400)
+S.append(500)
+print(S) 
+
+
+#5. List Insert:
+
+A=[0,2,4,6,8,10]
+A.insert(6,"Hello")
+A.insert(0,"Welcome")
+print(A)
+
+
+#6. List Remove:
+
+C=["Welcome", 0, 2, 4, 6, 8, 10, "Hello"]
+C.remove("Welcome")
+C.remove("Hello")
+print(C)
+
+
+ #7. List Sort:
+
+li=[10,4,90,50,60,70]
+li.sort()
+print(li)
+
+
+#8. List reverse:
+
+Fruits= ["Apple","Banana","Cherry"]
+Fruits.reverse()
+print(Fruits)
+
+
+#9. List Extend:
+
+A= [10,20,30,40,50]
+B= [60,70,80,90,100]
+A.extend(B)
+print(A)
+
+
+ #10. List Concatenation:
+
+Fruits=["Apple","Cherry"]
+Color= ["Orange","Black"]
+print(Fruits +Color)
+
+
+#11.List pop():-
+
+Fruits=["Orange","Banana","Cherry"]
+V= Fruits.pop(0)
+print(Fruits)
