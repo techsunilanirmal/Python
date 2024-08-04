@@ -1,0 +1,59 @@
+#Creating tuple:
+A=(1, 2, 3, 4, 5)
+
+#Accessing elements:
+A=(10,20,30,40,50)
+print(A[2]) 
+
+#Iterating over a tuple:
+A=(10,20,30,40,50)
+for i in A:
+    print(i)
+
+#Update tuple:
+A= ("Sejal","Sunila","Anjali")
+print(A)
+B= list(A)
+B[1] = "Nirmal"
+A= tuple(B)
+print(A)
+
+
+Methods:-
+
+#1. index():
+Sun= (40, 20, 30, 60, 50)
+print(Sun.index(30))
+
+#2. count(): 
+Sun= (90,80,70,60,50,60,40,60)
+print(Sun.count(60)) 
+
+#3. len():
+Sun= (90,80,70,60,50,60,40,60)
+print(len(Sun))  
+
+#4.max() and min():
+Sun= (90,80,70,60,50,60,40,60)
+print(max(Sun)) 
+print(min(Sun)) 
+
+#5. sum():
+Sun= (10,20,30,40,50)
+print(sum(Sun))
+
+#6. enumerate():Returns a tuple containing the index and value of each element.
+Hello= (40, 20, 30, 60, 50)
+for i, value in enumerate(Hello):
+    print(f"Index: {i}, Value: {value}")
+
+#7. zip(): Combines two or more tuples into a single tuple of tuples.
+T1= (100,200,300)
+T2= ("Disha","Computer","Institute")
+zipped= zip(T1,T2)
+print(list(zipped))
+
+
+
+
+
