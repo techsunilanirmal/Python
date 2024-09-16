@@ -1,0 +1,215 @@
+# Creating a string:- 
+
+str1='Hello Python'
+str2="Hello Python"
+str3='''Hello Python'''
+
+# Accessing string:-
+
+str="Hello World"
+x=str[4]
+print(x)
+
+# Updating string:-
+
+Str="Hello World"
+Str="Hello Python"
+print(Str)
+
+# Search String:-
+
+Str="Clean code always looks like it was written by someone who cares."
+Search=input("Enter any string to search:")
+if Search in Str:
+    print(Search,"Is Present")
+else:
+    print(Search,"Is not Present")
+
+# String Concatenation:-
+
+A="Hello "
+B="Python Programming!!!"
+C=A+B
+print(C)
+
+# String Repetition:-
+
+Str="Hello World"
+print(Str*3)
+
+
+****************************************************  STRING METHODS ******************************************************************
+
+#1.Capitalize:- 
+
+str="easy software"
+print(str.capitalize())
+
+
+#2.casefold():-
+
+str="Easy Software"
+print(str.casefold())
+
+
+#3.center():-
+
+str="Easy Software"
+print(str.center(80))
+
+
+#4.endswith():-
+
+str="Easy Software"
+print(str.endswith("software"))
+print(str.endswith("Software"))
+
+
+#5.starswith():-
+
+str="Easy Software"
+print(str.startswith("easy"))
+print(str.startswith("Easy"))
+
+
+#6.find():-
+
+str="You can learn python easily"
+print(str.find("python"))
+
+
+#7.index():-
+
+str="You can learn python easily"
+print(str.find("python"))
+
+
+#8.format():-
+
+book="ABC"
+price=1000
+str3="The price of book {} is Rs.{}".format(book,price)
+print(str3)
+
+
+#9.isalnum():-
+
+str1="easy123"
+str2="easy@123"
+print(str1.isalnum())
+print(str2.isalnum())
+
+
+#10.isalpha():-
+
+str1="easy"
+str2="easy@123"
+print(str1.isalpha())
+print(str2.isalpha())
+
+
+#11.isdecimal():-
+
+str1="easy"
+str2="123"
+print(str1.isdecimal())
+print(str2.isdecimal())
+
+
+#12.isdigit():-
+
+str1="easy"
+str2="123"
+print(str1.isdigit())
+print(str2.isdigit())
+
+
+#13.isidentifier():-
+
+str1="easy"
+str2="123"
+str3="abc123"
+str4="*abc"
+print(str1.isidentifier())
+print(str2.isidentifier())
+print(str3.isidentifier())
+print(str4.isidentifier())
+
+
+#14.islower():-
+
+str1="python"
+str2="Python"
+print(str1.islower())
+print(str2.islower())
+
+
+#15.isnumeric():-
+
+str1="python"
+str2="123"
+print(str1.isnumeric())
+print(str2.isnumeric())
+
+
+#16.isupper():-
+
+str1="python"
+str2="PYTHON"
+print(str1.isupper())
+print(str2.isupper())
+
+
+#17.isspace():-
+
+str1=" "
+str2="PYTHON"
+print(str1.isspace())
+print(str2.isspace())
+
+
+#18.len():-
+
+str1="EASY"
+str2="PYTHON"
+print(len(str1))
+print(len(str2))
+
+
+#19.lower():-
+
+str1="EASY"
+str2="PYTHON"
+print(str1.lower())
+print(str2.lower())
+
+
+#20.upper():-
+
+str1="easy"
+str2="python"
+print(str1.upper())
+print(str2.upper())
+
+
+#21.swapcase():-
+
+str1="eAsy"
+str2="PytHon"
+print(str1.swapcase())
+print(str2.swapcase())
+
+
+#22.strip():-
+
+str="  PYTHON  "
+print("Without strip:",str,"Programming")
+print("With strip:",str.strip(),"Programming")
+
+
+#23.replace():-
+
+str="Hello Java"
+print("Original string:",str)
+str=str.replace("Java","Python")
+print("New string:",str)
