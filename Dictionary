@@ -1,0 +1,81 @@
+# Creating Dictionary:-
+
+a={"Name":"Sunila","Age":20,"Year":2003}
+print(a)
+
+# Accessing Items:-
+
+a={"Name":"Sunila","Age":20,"Year":2003}
+print(a)
+c=a["Age"]
+print(c)
+
+# get() method:-
+
+a={"Name":"Sunila","Age":20,"Year":2003}
+print(a)
+c=a.get("Name")
+print(c)
+
+# get keys:-
+
+a={"Name":"Sunila","Age":20,"Year":2003}
+print(a)
+c=a.keys()
+print(c)
+
+# get values:-
+
+a={"Name":"Sunila","Age":20,"Year":2003}
+print(a)
+c=a.values()
+print(c)
+
+# get items:-
+
+a={"Name":"Sunila","Age":20,"Year":2003}
+print(a)
+c=a.items()
+print(c)
+
+# Updating dictionary:-
+
+d={"Name":"Yeshu","Age":15,"School":"NHP"}
+print(d)
+d["Age"]=16
+d["School"]="JVM"
+print(d["Age"])
+print(d["School"])
+print(d)
+
+# update():-
+
+car = {
+ "brand": "Ford",
+ "model": "Mustang",
+ "year": 1964
+}
+car.update({"year": 2020})
+print(car)
+
+# Adding Items:-
+
+sun = {"Name": "Sunila","Age": "20","year": 2003}
+sun["Friend"] = "Sejal"
+print(sun)
+
+# Removing Items:-
+
+d={"Name":"Yeshu","Age":15,"School":"NHP"}
+del d["Age"]
+print(d)
+d.clear()
+print(d)
+del d
+
+# pop () method:-
+
+sun = {"Name": "Sunila","Age": "20","year": 2003}
+sun.pop("Age")
+print(sun)
+
