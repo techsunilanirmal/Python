@@ -1,0 +1,54 @@
+# 1). Count the number of Albhabets,Digits and Special symbols in a Sentence.
+
+Str=input("Enter any string:")
+Alpha=0
+Digit=0
+Special=0
+for i in Str:
+    #Condition for alphabet
+    if((i>='A'and i<='Z')or (i>='a' and i<='z')):
+        #Incrementing alpha counter
+        Alpha+=1
+    elif i>='0'and i<='9':
+        Digit+=1
+    else:
+        #Incrementing symbol counter
+        Special+=1
+#Printing Result
+print("Total Alphaet={} Digit={} and Special Symbol={}".format(Alpha,Digit,Special))
+
+
+
+# 2). Write a program to check if the given letter is present or not in the word.
+
+Word=input("Enter any word:")
+Letter=input("Enter any letter:")
+if Letter in Word:
+    print("Yes {} is present in {}".format(Letter,Word))
+else:
+    print("{} is not present".format(Letter))
+
+
+# 3). Write a program to check if the given word is present or not in a sentene.
+
+Sentence=input("Enter any word:")
+Word=input("Enter any letter:")
+if Word in Sentence:
+    print("Yes {} is present in {}".format(Word,Sentence))
+else:
+    print("{} is not present".format(Word))
+
+
+# 4). Write a program to print every character of a string entered by user in a new line.
+
+Str=input("Enter any string:")
+for i in Str:
+    print(i)
+
+# 5). Write a program to find the length of the string without using len function:-
+
+String=input("Enter any string:")
+count=0
+for i in String:
+    count+=1
+print("Length of the string is:-",count)
